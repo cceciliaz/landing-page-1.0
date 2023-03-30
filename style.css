@@ -3,14 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-section {
+section{
     position: relative;
     width: 100%;
     min-width: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background: url(img/) no-repeat;
+    background: url(img/paisagem.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     background-color: antiquewhite;
@@ -33,6 +33,7 @@ header .logo{
     font-weight: 800;
     letter-spacing: 1px;
 }
+
 header .navigation a {
     color: black;
     text-decoration: none;
@@ -65,4 +66,43 @@ header .navigation a:hover{
     color: #fff;
     font-size: 50px;
     font-weight: 600;
+}
+.content .info p{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.content .info-btn {
+    color: #fff;
+    background: #226a80;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+    transition-property: background;
+}
+.content .info-btn:hover{
+    background: #0c4f60;
+}
+.media-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.media-icons a{
+    position: relative;
+    color: #111;
+    font-size: 25px;
+    transition: 0.3s;
+    transition-property: transform;
+}
+.media-icons a:not(:last-child){
+    margin-right: 50px;
+}
+.media-icons a:hover{
+    transform: scale(1.5);
 }
