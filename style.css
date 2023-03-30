@@ -10,4 +10,28 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    background: url(img/) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+header{
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    position: relative;
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+header .navigation a {
+    color: black;
 }
