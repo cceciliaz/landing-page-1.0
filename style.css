@@ -13,6 +13,7 @@ section {
     background: url(img/) no-repeat;
     background-position: center;
     background-size: cover;
+    background-color: antiquewhite;
 }
 header{
     position: relative;
@@ -34,4 +35,25 @@ header .logo{
 }
 header .navigation a {
     color: black;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 2px 15px;
+    border-radius: 20px;
+    transition: 0.3s;
+    transition-property: background;
+}
+header .navigation a:not(:last-child){
+    margin-right:30px
+}
+header .navigation a:hover{
+    background-color: #fff;
+} 
+.content{
+    max-width: 650px;
+    margin: 60px 100px;
+}
+.content .info h2{
+    font-size: 55px;
+    text-transform: uppercase;
 }
