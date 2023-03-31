@@ -62,6 +62,7 @@ header .navigation a:hover{
     letter-spacing: 2px;
     line-height: 60px;
     margin-bottom: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .content .info h2 span {
     color: #fff;
@@ -69,8 +70,8 @@ header .navigation a:hover{
     font-weight: 600;
 }
 .content .info p{
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 25px;
+    font-weight: 900;
     margin-bottom: 40px;
 }
 .content .info-btn {
@@ -78,9 +79,9 @@ header .navigation a:hover{
     background: #226a80;
     text-decoration: none;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 900;
     letter-spacing: 2px;
-    padding: 10px 20px;
+    padding: 20px 20px;
     border-radius: 5px;
     transition: 0.3s;
     transition-property: background;
@@ -96,7 +97,7 @@ header .navigation a:hover{
 }
 .media-icons a{
     position: relative;
-    color: #111;
+    color: #ffffff;
     font-size: 25px;
     transition: 0.3s;
     transition-property: transform;
