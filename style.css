@@ -7,7 +7,6 @@ section{
     position: relative;
     width: 100%;
     min-width: 100vh;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -52,6 +51,7 @@ header .navigation a:hover{
     background-color: #fff;
 } 
 .content{
+    padding-top: 100px;
     max-width: 650px;
     margin: 60px 100px;
 }
@@ -70,6 +70,10 @@ header .navigation a:hover{
     font-weight: 600;
 }
 .content .info p{
+    border-radius: 10px;
+    padding: px;
+    background-color: rgba(255, 255, 255, 0.76);
+    color: rgb(0, 0, 0);
     font-size: 25px;
     font-weight: 900;
     margin-bottom: 40px;
