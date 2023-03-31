@@ -7,6 +7,7 @@ section{
     position: relative;
     width: 100%;
     min-width: 100vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -99,6 +100,7 @@ header .navigation a:hover{
     font-size: 25px;
     transition: 0.3s;
     transition-property: transform;
+    margin-top: 300px;
 }
 .media-icons a:not(:last-child){
     margin-right: 50px;
